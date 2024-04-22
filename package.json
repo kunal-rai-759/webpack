@@ -4,7 +4,8 @@
   "description": "It is a webpack tutorial repository integrated with with react.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpackCustomConfig.js"
+    "build": "webpack --config webpackCustomConfig.js",
+    "start": "webpack-dev-server --config webpackCustomConfig.js --mode development --open"
   },
   "keywords": [],
   "author": "",

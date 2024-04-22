@@ -26,3 +26,17 @@ It is a webpack tutorial repository integrated with with react.
     for custom config file we need to mention the file name in build script
     script
         webpack --config filename.js
+
+# webpack-dev-server
+    config code
+        devServer:{
+            static:{
+                directory: path.join(__dirname,"dist"),
+            },
+            compress:true,
+            port:3001,
+        }
+    script:
+        webpack-dev-server --config webpackCustomConfig.js --mode development --open
+        --config webpackCustomConfig.js : it isfor custom config file
+        --open : it is to open webapp in browser after starting server.
