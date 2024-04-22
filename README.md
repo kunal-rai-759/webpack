@@ -22,4 +22,7 @@ It is a webpack tutorial repository integrated with with react.
     default 
         "build": "webpack"
     
-
+# custom config file
+    for custom config file we need to mention the file name in build script
+    script
+        webpack --config filename.js
